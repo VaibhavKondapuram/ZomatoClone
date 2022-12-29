@@ -1,0 +1,116 @@
+.card2-container{
+    /* margin: 1.5rem; */
+    padding: 3rem 1rem;
+}
+.card2-container .heading h3{
+    margin-block-end: 0px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.card2-container .detail{
+    display: flex;
+    flex-direction: column;
+}
+.card2-container .heading p{
+    margin-block-start: 0.3rem;
+    font-size: 0.83rem;
+    font-weight: 300;
+}
+.card2-container .link-para{
+    color: rgba(226, 55, 69, 0.653);
+}
+.card2-container .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    margin-top: 2rem;
+}
+.card2-container .card {
+    text-decoration: none;
+    position: relative;
+    color: white;
+    cursor: pointer;
+}
+.card2-container img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.card2-container .card .img-text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    width: 90%;
+}
+
+.card2-container .img-text .title{
+    font-size: 1rem;
+    font-weight: 300;
+    width: 100%;
+}
+.card2-container .img-text .place{
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin: 0.3rem 0rem 0;
+}
+
+@media (max-width: 300px) {
+    .card2-container .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 480px) {
+    .card2-container .detail{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card2-container .link-para{
+        margin: 0.4rem 1rem;
+    }
+    .card2-container .heading h3{
+        font-size: 1.9rem;
+    }
+    .card2-container .heading p{
+        font-size: 1.1rem;
+        font-weight: 300;
+    }
+    .card2-container .cards {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0.8rem;
+    }
+    .card2-container img{
+        margin-bottom: 3rem;
+        height: 100%;
+        background:linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1));
+    }
+}
+@media (min-width: 1020px) {
+    .card2-container{
+            gap: 1.5rem;
+            padding: 3rem 5rem;
+    }
+    .card2-container .heading h3{
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+    .card2-container .cards{
+        margin-top: 1rem;
+    }
+    .card2-container .cards .img-text{
+        bottom: 5%;
+        left: 2%;
+    }
+    .card2-container .img-text .title{
+        font-size: 1rem;
+        font-weight: 300;
+        width: 100%;
+    }
+    .card2-container .img-text .place{
+        font-size: 0.9rem;
+        font-weight: 300;
+        margin: 0.3rem 0rem 0;
+    }
+}
