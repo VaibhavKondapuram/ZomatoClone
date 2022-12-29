@@ -1,0 +1,117 @@
+.hero-image{
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0.5rem 2rem 0.5rem;
+}
+.hero-image .hero-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    /* width: 100%; */
+}
+
+.hero-image .title{
+    padding: 0.5rem;
+    width: 10rem;
+    margin: auto;
+}
+
+.hero-image .hero-text h1 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 1.2rem;
+    display: inline;
+}
+
+.hero-image .hero-text .icons{
+    height: 1.2rem;
+    width: auto;
+    object-fit: cover;
+    margin: 0 0.1rem;
+}
+.hero-image .hero-text  input {
+    /* width: 100%; */
+    outline: none;
+    padding: 0 0.5rem;
+}
+.hero-image .hero-text .dropdown{
+    display: flex;
+    padding: 1rem 0.5rem;
+    margin: 0.3rem;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+.hero-image .hero-text  .dropdown .location{
+    color: black;
+    background: transparent;
+    border: none;
+    width: 100%;
+    font-size: medium;
+}
+.hero-image .hero-text .searchBar .verticalLine{
+    margin: 1rem 1rem;
+    border-left: 0.01rem solid gray;
+    width: 0.1rem;
+}
+.hero-image .hero-text  .searchField{
+    width: 98%;
+    display: flex;
+    padding: 1rem 0rem;
+    margin: 0.3rem;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+.hero-image .hero-text  .searchField .searchInput{
+    background: transparent;
+    border: none;
+    font-size: medium;
+    width: 100%;
+}
+
+@media(min-width: 500px) {
+    .hero-image{
+        padding: 6rem 0.5rem 6rem 0.5rem;
+    }
+    .hero-image .title{
+        width: 17rem;
+    }
+    .hero-image .hero-text h1 {
+        font-size: 2.3rem;
+        font-weight: 400;
+        margin-bottom: 1.7rem;
+        display: inline;
+    }
+    .hero-image .hero-text .searchBar{
+        display: flex;
+        flex-direction:row;
+        border-radius: 10px;
+        overflow: hidden;
+        /* width: 70%; */
+        margin: auto;
+        background-color: white;
+        padding: 0rem;
+    
+}
+.hero-image .hero-text  .dropdown .location{
+        color: rgba(209, 207, 207, 0.434);
+        padding-right: 6rem ;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+}
+@media (min-width: 800px) {
+    .hero-image{
+        padding: 6rem 0.5rem 6rem 0.5rem;
+    }
+    .hero-image .hero-text .searchBar{
+        width: 66%;
+}
+    .hero-image .hero-text  .dropdown .location{
+        padding-right: 5rem ;
+    }
+    
+}
