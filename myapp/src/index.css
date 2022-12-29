@@ -1,0 +1,18 @@
+:root {
+  --primary-red: #e23744;
+  --dark-black: #1d1d1d;
+  --footer-bg: #f8f8f8;
+}
+
+body {
+  font-family: "Kumbh Sans", "Red Hat Display";
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+* {
+  font-family: "Kumbh Sans", "Red Hat Display";
+}
+
