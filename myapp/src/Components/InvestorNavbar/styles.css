@@ -1,0 +1,114 @@
+ .investorNavbar {
+    background-color: white;
+    z-index: 40;
+    padding: 0.5rem 1rem;
+    gap: 0.2rem;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .investorNavbar .smallScreen {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.6rem 0;
+  }
+  .investorNavbar .smallScreen .add {
+    color: #151515;
+    text-decoration: none;
+    z-index: 50;
+    text-align: start;
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+  }
+  .investorNavbar .smallScreen .smallItem {
+    display: flex;
+    padding: 5rem 0rem;
+    gap: 1.5rem;
+    flex-direction: column;
+    position: absolute;
+    z-index: 40;
+    width: 100%;
+    top: 0.4rem;
+    right: 0;
+    background: white;
+    bottom: 0;
+  }
+  .investorNavbar .smallScreen .smallItem .hamburger-cross {
+    color: black;
+    position: absolute;
+    padding: 0.5rem 1rem;
+    right: 0;
+    top: 0;
+  }
+  
+  .investorNavbar .smallScreen .smallItem .link {
+    text-decoration: none;
+    color: black;
+    padding-left: 1rem;
+  }
+  
+  .investorNavbar .smallScreen .hamburger-cross,
+  .investorNavbar .smallScreen .hamburger-icon {
+    color: #151515;
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  .investorNavbar .largeScreen {
+    display: none;
+  }
+  
+  @media (max-width: 900px) {
+    .investorNavbar {
+      bottom: 0;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .investorNavbar {
+      padding: 1.5rem 1rem;
+    }
+    .investorNavbar .smallScreen {
+      display: none;
+    }
+    .investorNavbar .largeScreen {
+      /* width: 100vw; */
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0rem 3rem;
+      align-items: center;
+    }
+  
+    .investorNavbar .largeScreen .add {
+      text-decoration: none;
+      display: flex;
+      gap: 0.2rem;
+      align-items: center;
+    }
+    .investorNavbar .largeScreen .add img {
+      width: 8rem;
+    }
+  
+    .investorNavbar .largeScreen .add .heading {
+      color: #151515;
+    }
+    .investorNavbar .largeScreen .item {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .investorNavbar .largeScreen .item .link {
+      text-decoration: none;
+      color: #151515;
+      width: fit-content;
+    }
+  }
+    
