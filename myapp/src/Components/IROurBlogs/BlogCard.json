@@ -1,0 +1,23 @@
+[
+    {
+     " id": 1,
+      "img": "https://www.zomato.com/blog/wp-content/uploads/2022/11/Cover-10-741x486.png",
+      "date": "Rahul Mehta | 23 Nov 2022",
+      "title": "How Hyperpure is helping restaurants in their growth journey",
+      "description": "Behind the scenes of our farm-to-fork supply model"
+    },
+    {
+     " id": 2,
+      "img": "https://www.zomato.com/blog/wp-content/uploads/2022/11/IMG_20221121_193133-1-2-741x486.png",
+      "date": "Communications Team | 20 Nov 2022",
+      "title": "How love for food made me participate in HackaNoodle?",
+      "description": "When asked, what brought me to the hackathon hosted by Zomato and Blinkit, I said, 'to have food'."
+    },
+    {
+     " id": 3,
+      "img": "https://www.zomato.com/blog/wp-content/uploads/2022/11/Cover-8-741x486.png",
+      "date": "Madan Sharma | 18 Nov 2022",
+      "title": "How do tips work at Zomato?",
+      "description": "An update on th erecent developments we've made in our tips ecosystem"
+    }
+]
